@@ -8,11 +8,12 @@ const Layout = props => {
     <>
       <header>
         <nav className="nav">
-          <Link to="/"><h2 className="nav__logo"><img src="https://i.imgur.com/Tt4de9b.png"/></h2></Link>
+          
           <div className="nav__links">
+          <Link to="/"><img src="https://i.imgur.com/Tt4de9b.png" style={{height:"85px", width:"250px", display:"flex"}}/></Link>
             <Link to="/blog">BLOG</Link>
-            <Link to="/projects">Projects</Link>
-            <a href="">Github</a>
+            <Link to="/projects">Art-Gallery</Link>
+            <a href="">Kofi</a>
             <a href="">Twitter</a>
           </div>
         </nav>
