@@ -76,6 +76,11 @@ header {
     align-items: center;
 }
 
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
 .widgets__widgetContainer > .tweet {
   height: 100px;
   width:300px;
