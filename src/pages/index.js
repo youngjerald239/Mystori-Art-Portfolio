@@ -14,29 +14,21 @@ export default function Blog() {
 
       <h1>About Me</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-        eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
-        bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
-        tincidunt laoreet ex, in pretium orci vestibulum eget. Class aptent
-        taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-        himenaeos. Duis pharetra luctus lacus ut vestibulum. Maecenas ipsum
-        lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh at
-        nisi ullamcorper sagittis id vel leo. Integer feugiat faucibus libero,
-        at maximus nisl suscipit posuere. Morbi nec enim nunc. Phasellus
-        bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. Cras
-        pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum
-        metus, non dictum mauris. Nulla at tellus sagittis, viverra est a,
-        bibendum metus.
+        Hey, My name is Tori. 
+        I created Mystori Art to showcase my interests in character design, fanart, landscapes, and many other digital art projects. I have developed my own style to match my tastes as a black artist, please checkout my ko-fi or donate to $bluelily53 via cash app. Below, you can take a look at some of my latest works, with timelapses included!
       </p>
       <div className="widgets">
            
            <div className="widgets__widgetContainer">
-               <h2>What's happening?</h2>
+              
                <TwitterTweetEmbed className="tweet" tweetId={"1423475985412935680"}/>
                <TwitterTweetEmbed className="tweet" tweetId={"1428130865738027010"}/>
                <TwitterTweetEmbed className="tweet" tweetId={"1427362640108609554"}/>
                <TwitterTweetEmbed className="tweet" tweetId={"1426274218644328452"}/>
-               <TwitterShareButton url={"https://twitter.com/ToriTooMuch?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1407409199378751491%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2FToriTooMuch2Fstatus2F1407409199378751491widget%3DTweet"} options={{text:"#reactjs is awesome", via:"Jerald Young"}}/>
+               <TwitterTweetEmbed className="tweet" tweetId={"1418345590405140482"}/>
+               <TwitterTweetEmbed className="tweet" tweetId={"1417597372205568005"}/>
+               
+               
            </div>
         </div>
     </Layout>

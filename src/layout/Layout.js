@@ -1,5 +1,7 @@
 import React from "react"
-import { RedH1 } from "../styles/mainstyles"
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LocalCafeOutlinedIcon from '@material-ui/icons/LocalCafeOutlined';
+import PhotoLibraryOutlinedIcon from '@material-ui/icons/PhotoLibraryOutlined';
 import { Link } from "gatsby"
 import {Avatar} from "@material-ui/core";
 import "../style.css"
@@ -16,9 +18,9 @@ const Layout = props => {
           <div className="nav__links">
           
             
-            <Link to="/projects">Art-Gallery</Link>
-            <a href="">Kofi</a>
-            <a href="">Twitter</a>
+            <Link to="/projects"><PhotoLibraryOutlinedIcon/>Art Gallery</Link>
+            <a href="https://twitter.com/ToriTooMuch"><TwitterIcon/>Twitter</a>
+            <a href="https://t.co/IJZqyybIZy?amp=1"><LocalCafeOutlinedIcon/>Ko-fi</a>
           </div>
         </nav>
       </header>
@@ -26,10 +28,10 @@ const Layout = props => {
       <footer className="footer">
         <nav className="nav">
           <div className="nav__links">
-            <Link to="/blog">BLOG</Link>
-            <Link to="/projects">Projects</Link>
-            <a href="">Github</a>
-            <a href="">Twitter</a>
+            
+            <Link to="/projects"><PhotoLibraryOutlinedIcon/>Art Gallery</Link>
+            <a href="https://twitter.com/ToriTooMuch"><TwitterIcon/>Twitter</a>
+            <a href="https://t.co/IJZqyybIZy?amp=1"><LocalCafeOutlinedIcon/>Ko-fi</a>
           </div>
         </nav>
       </footer>
