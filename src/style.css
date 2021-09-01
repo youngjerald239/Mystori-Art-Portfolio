@@ -130,17 +130,20 @@ header {
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important;
   color: white !important;
-  background-color: rgb(19, 19, 19) !important;
+  background-color: rgb(17, 17, 17) !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  width: 23%;
   display:inline-block;
   overflow: hidden;
-  
-  
+  justify-content: space-between;
+  margin-left: 21px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.10) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(243, 7, 7, 0.561) !important;
 }
@@ -151,46 +154,18 @@ header {
   border-radius: 33px !important;
   width: 500px;
   height: 400px;
-  overflow: hidden;
+  
   display:flex;
+  justify-content: space-between;
+  
   
 }
 
-.card__text {
-  display:inline-block;
-  justify-content: space-around;
-  
+.card-image {
+  width: 100%;
+  display:flex;
 }
 
-.btn-primary {
-  color: rgb(228, 15, 15) !important;
-  background-color: #060701 !important;
-  border: 1px solid #e0e418 !important;
-  border-radius: 999px;
-  padding:1px 10px 1px 5px;
-  margin:15px;
-  font-weight: 600;
-  text-decoration: none;
-  
-}
-
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #ddd124d7 !important;
-  border-color: rgba(34, 78, 223, 0.637) !important;
-}
-.btn:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-.project-heading {
-  color: rgb(231, 228, 31) !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
-  padding-bottom: 5px;
-}
 
 
 

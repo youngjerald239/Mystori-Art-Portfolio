@@ -15,7 +15,7 @@ export default function Blog() {
         return (<div className="project-card-view" key={project.name}>
 
           <Card className="card">
-  <Card.Img src={project.image} alt="Card image" />
+  <Card.Img className="card-image" src={project.image} alt="Card image" />
 </Card>
 
         </div>)
