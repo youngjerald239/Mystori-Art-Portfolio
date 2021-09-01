@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../layout/Layout"
+import Card from 'react-bootstrap/Card'
+import { Container, Row, Col } from "react-bootstrap"
 import projects from "../json/projects.json"
 
 export default function Blog() {
@@ -10,15 +12,11 @@ export default function Blog() {
       <h1>Welcome to my Art Galllery</h1>
 
       {projects.map((project => {
-        return (<div key={project.name}>
+        return (<div className="project-card-view" key={project.name}>
 
-          <h1>{project.name}</h1>
-          <img src={project.image} alt={project.name}/>
-          <p>{project.description}</p>
-          <div>
-            <a href={project.github}><button>Donate</button></a>
-            <a href={project.live}><button>Purchase Print</button></a>
-          </div>
+          <Card className="card">
+  <Card.Img src={project.image} alt="Card image" />
+</Card>
 
         </div>)
       }))}

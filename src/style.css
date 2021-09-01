@@ -40,16 +40,20 @@ Layout.js - nav
 header {
     position: sticky;
     top: 0;
+  z-index: 100;
+    top:0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);  
 }
 
 .nav {
   display: flex;
   color: var(--secondary-color);
   background-color: var(--primary-color);
-  padding: 5px;
+  padding: 20px 80px;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 102px;
+  
 
 }
 
@@ -89,6 +93,103 @@ header {
   flex:1;
   justify-content: center;
  width: 1500px;
+}
+
+.project-section {
+  position: relative !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.projectsContainer {
+  display:flex;
+  flex-wrap: wrap;
+  padding:20px;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  width: 500px;
+  height: 600px;
+  justify-content: space-evenly;
+  display: inline-block;
+  
+  
+  
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important;
+  color: white !important;
+  background-color: rgb(19, 19, 19) !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  display:inline-block;
+  overflow: hidden;
+  
+  
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(243, 7, 7, 0.561) !important;
+}
+
+.card {
+  padding: 5px !important;
+  opacity: 0.8 !important;
+  border-radius: 33px !important;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  display:flex;
+  
+}
+
+.card__text {
+  display:inline-block;
+  justify-content: space-around;
+  
+}
+
+.btn-primary {
+  color: rgb(228, 15, 15) !important;
+  background-color: #060701 !important;
+  border: 1px solid #e0e418 !important;
+  border-radius: 999px;
+  padding:1px 10px 1px 5px;
+  margin:15px;
+  font-weight: 600;
+  text-decoration: none;
+  
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #ddd124d7 !important;
+  border-color: rgba(34, 78, 223, 0.637) !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.project-heading {
+  color: rgb(231, 228, 31) !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  padding-bottom: 5px;
 }
 
 
