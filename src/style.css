@@ -16,8 +16,14 @@ background-color: var(--secondary-color);
 
 h1 {
   color: purple;
+  margin-left: 450px;
+  font-size: 50px;
 }
-h2,
+h2 {
+  font-size: xx-large;
+  color:rgb(14, 185, 185);
+  padding-left: 30px;
+}
 h3,
 h4,
 h5,
@@ -32,6 +38,8 @@ body {
 p {
   color: white;
   font-size: 30px;
+  display:inline-block;
+  padding-left: 30px;
 }
 
 /* ****************************
@@ -88,7 +96,16 @@ header {
   align-items: center;
 }
 
-
+.widgets {
+  display:flex;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+  margin-right:10px;
+  position:relative;
+  
+}
 
 .widgets__widgetContainer {
   display:flex;
@@ -98,6 +115,7 @@ header {
   justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 5px;
+  
 }
 
 .project-section {
