@@ -7,7 +7,7 @@ export default function Blog() {
 
   return (
     <Layout>
-      <h1>My blog posts</h1>
+      <h1>Welcome to my Art Galllery</h1>
 
       {projects.map((project => {
         return (<div key={project.name}>
@@ -16,8 +16,8 @@ export default function Blog() {
           <img src={project.image} alt={project.name}/>
           <p>{project.description}</p>
           <div>
-            <a href={project.github}><button>GitHub</button></a>
-            <a href={project.live}><button>Live</button></a>
+            <a href={project.github}><button>Donate</button></a>
+            <a href={project.live}><button>Purchase Print</button></a>
           </div>
 
         </div>)
