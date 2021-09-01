@@ -53,7 +53,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 102px;
-  
+  position: relative;
+  font-size: smaller;  
+  flex:1;  
 
 }
 
@@ -91,8 +93,11 @@ header {
 .widgets__widgetContainer {
   display:flex;
   flex:1;
-  justify-content: center;
- width: 1500px;
+  height: 100% !important;
+  width: 15%;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .project-section {
