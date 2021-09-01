@@ -108,6 +108,7 @@ header {
   padding-top:10px;
   margin-right:10px;
   position:relative;
+  border: 1px solid blue;
   
 }
 
@@ -115,11 +116,12 @@ header {
   display:flex;
   flex:1;
   height: 100% !important;
-  width: 15%;
+  padding-right:10px;
   justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 5px;
-  
+  border: 1px solid blue;
+  width: 50%;
 }
 
 .project-section {
