@@ -13,8 +13,8 @@ export default function Blog() {
 
       <h2>About Me</h2>
       <p>
-        Hey, My name is Tori. 
-        I created Mystori Art to showcase my interests in character design, fanart, landscapes, and many other digital art projects. I have developed my own style to match my tastes as a black artist, please checkout my ko-fi. Below, you can take a look at some of my latest works, with timelapses included!
+        Hello, My name is Tori. 
+        I created Mystori Art to showcase my interests in character design, fanart, landscapes, and many other digital art projects. I have developed my own style to match my tastes as a black artist, please checkout my ko-fi. Be sure to checkout my most recent works bellow, with timelapses included!
       </p>
       <div className="widgets">
            

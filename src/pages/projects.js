@@ -9,7 +9,7 @@ export default function Blog() {
 
   return (
     <Layout>
-      <h1>Welcome to my Art Galllery</h1>
+      <h1>Welcome to my Art Gallery</h1>
 
       {projects.map((project => {
         return (<div className="project-card-view" key={project.name}>

@@ -18,11 +18,15 @@ h1 {
   color: purple;
   margin-left: 450px;
   font-size: 50px;
+  padding-top: 20px;
+  font-weight: 800;
 }
 h2 {
   font-size: xx-large;
   color:rgb(14, 185, 185);
   padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 h3,
 h4,
