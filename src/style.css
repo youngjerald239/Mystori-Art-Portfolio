@@ -18,7 +18,7 @@ h1 {
   color: purple;
   margin-left: 450px;
   font-size: 50px;
-  padding-top: 20px;
+  padding-top: 30px;
   font-weight: 800;
 }
 h2 {
@@ -107,6 +107,10 @@ header {
   transform: scale(1.50) !important;
 }
 
+.logo {
+  padding-top: 50px;
+}
+
 .widgets {
   display:flex;
   justify-content: space-evenly;
@@ -165,7 +169,7 @@ header {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important; */
   color: white !important;
   background-color: rgb(17, 17, 17) !important;
   opacity: 0.9 !important;
@@ -216,9 +220,55 @@ Screens Smaller than 970px
 **************************** */
 
 @media screen and (max-width: 970px){
-    .nav__links {
-        font-size: 1.25em;
-    }
+  .nav {
+    display: flex;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding-left: 1px;
+    align-items: center;
+    height: 102px;
+    width: 1000px;
+    position: relative;
+    font-size: xx-small;  
+    flex:1;  
+
+  }
+  .widgets {
+    display:flex;
+    justify-content: space-evenly;
+    width:70%;
+  
+    /* border: 1px solid blue; */
+  
+  }
+
+  .widgets__widgetContainer {
+    display:flex;
+    justify-content: space-evenly;
+    height: 100% !important;
+  
+    margin-top: 15px;
+    margin-left:50px;
+    margin-bottom: 5px;
+    /* border: 1px solid blue; */
+    width: 10%;
+  }
+  .project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important;
+  color: white !important;
+  background-color: rgb(17, 17, 17) !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  width: 30%;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-around;
+  margin-left: 21px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  }
 }
 
 /* ****************************
@@ -241,17 +291,41 @@ Screens Smaller than 510px
 **************************** */
 
 @media screen and (max-width: 510px){
+  .widgets {
+    display:flex;
+    justify-content: space-evenly;
+    width:170%;
+  
+    /* border: 1px solid blue; */
+  
+  }
 
-    .nav__logo {
-        font-size: 1em;
-      }
-
-    .nav__links {
-        font-size: .6em;
-        font-weight: bolder;
-    }
-
-    .nav a {
-        padding: 2px;
-    }
+  .widgets__widgetContainer {
+    display:flex;
+    justify-content: space-evenly;
+    height: 100% !important;
+  
+    margin-top: 15px;
+    margin-left:50px;
+    margin-bottom: 5px;
+    /* border: 1px solid blue; */
+    width: 100%;
+  }
+  .project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important;
+  color: white !important;
+  background-color: rgb(17, 17, 17) !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  width: 140%;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-around;
+  margin-left: 260px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  }
+    
 }

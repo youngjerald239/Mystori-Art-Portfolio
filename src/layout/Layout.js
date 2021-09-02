@@ -16,7 +16,7 @@ const Layout = props => {
           
           </div>
           <div className="logo">
-          <Avatar src="https://i.imgur.com/Tt4de9b.png" style={{height:"200px", width:"500px"}}/>
+          <Avatar src="https://i.imgur.com/Tt4de9b.png" style={{height:"300px", width:"600px"}}/>
           </div>
           
           <div className="nav__links">
