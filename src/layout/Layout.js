@@ -15,6 +15,10 @@ const Layout = props => {
           <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1423716924240900109/lrOP341Z_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
           
           </div>
+          <div className="logo">
+          <Avatar src="https://i.imgur.com/Tt4de9b.png" style={{height:"200px", width:"500px"}}/>
+          </div>
+          
           <div className="nav__links">
           
             
@@ -28,7 +32,9 @@ const Layout = props => {
       <footer className="footer">
         <nav className="nav">
           <div className="nav__links">
-            
+            <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1423716924240900109/lrOP341Z_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
+          
+          
             <Link to="/projects"><PhotoLibraryOutlinedIcon/>Art Gallery</Link>
             <a href="https://twitter.com/ToriTooMuch"><TwitterIcon/>Twitter</a>
             <a href="https://t.co/IJZqyybIZy?amp=1"><LocalCafeOutlinedIcon/>Ko-fi</a>
