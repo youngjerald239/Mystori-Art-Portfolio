@@ -32,7 +32,7 @@ const Layout = props => {
       <footer className="footer">
         <nav className="nav">
           <div className="nav__links">
-            <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1423716924240900109/lrOP341Z_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
+            <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1466441765460787205/gxwvtcbE_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
           
           
             <Link to="/projects"><PhotoLibraryOutlinedIcon/>Art Gallery</Link>

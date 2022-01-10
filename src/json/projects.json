@@ -2,6 +2,104 @@
     {
         "name": "project name",
         "description": "project description",
+        "image": "https://imgur.com/i8q4KQY.jpg=large",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/W72XMRV.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://i.imgur.com/UydpspS.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/Lvo9ezn.jpg=large",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/l6B02Pq.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/aj71JHo.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/YraouIm.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/O7WpdD6.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/hSOvZFs.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/P2oRIjv.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://res.cloudinary.com/dbgpqig0z/image/upload/v1641835967/sting_vekfjf.png",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://res.cloudinary.com/dbgpqig0z/image/upload/v1641836070/thranduil_v2_y2cqof.png",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://res.cloudinary.com/dbgpqig0z/image/upload/v1641836127/wr_jsmb61.png",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "https://imgur.com/f8PHujR.jpg",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
         "image": "https://pbs.twimg.com/media/E9fPYjZXEAQG2bv?format=jpg&name=large",
         "github": "link to github repo",
         "live": "link to deployed site"
