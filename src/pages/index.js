@@ -41,6 +41,7 @@ export default function Blog() {
                </div>
                
                
+               
            </div>
         </div>
         <div className="kofi"><iframe id='kofiframe' src='https://ko-fi.com/mystoriart/?hidefeed=true&widget=true&embed=true&preview=true'  height='400' width='1523' title='mystoriart'></iframe></div>
