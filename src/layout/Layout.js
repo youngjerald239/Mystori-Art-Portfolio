@@ -2,6 +2,7 @@ import React from "react"
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LocalCafeOutlinedIcon from '@material-ui/icons/LocalCafeOutlined';
 import PhotoLibraryOutlinedIcon from '@material-ui/icons/PhotoLibraryOutlined';
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import { Link } from "gatsby"
 import {Avatar} from "@material-ui/core";
 import "../style.css"
@@ -25,6 +26,7 @@ const Layout = props => {
             <Link to="/projects"><PhotoLibraryOutlinedIcon/>Art Gallery</Link>
             <a href="https://twitter.com/ToriTooMuch"><TwitterIcon/>Twitter</a>
             <a href="https://t.co/IJZqyybIZy?amp=1"><LocalCafeOutlinedIcon/>Ko-fi</a>
+            <Link to="/"><HomeOutlinedIcon/>Home</Link>
           </div>
         </nav>
       </header>
