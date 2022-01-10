@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-width: 1300px;
+  
   
 }
 
@@ -14,6 +14,7 @@ background-color: rgb(20, 20, 20);
   --primary-color: rgb(14, 185, 185);
   --secondary-color: black;
   --accent-color: purple;
+  margin:0;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h6 {
 
 body {
   font-family: var(--text-font);
-  
+  margin-right:0;
 }
 
 p {
@@ -56,7 +57,8 @@ header {
     position: sticky;
     z-index: 100;
     top:0;
-    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);  
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75); 
+     
 }
 
 .nav {
@@ -69,7 +71,7 @@ header {
   height: 102px;
   position: relative;
   font-size: xx-small;  
-   
+  margin:0;
 
 }
 
@@ -81,6 +83,7 @@ header {
   padding: 8px;
   transition: background-color 0.3s, color 0.3s;
   position: relative;
+  
 }
 
 .nav a:hover {
