@@ -8,7 +8,7 @@
 :root {
   --title-font: serif;
   --text-font: aerial;
-background-color: var(--secondary-color);
+background-color: rgb(20, 20, 20);
   --primary-color: rgb(14, 185, 185);
   --secondary-color: black;
   --accent-color: purple;
@@ -180,8 +180,7 @@ header {
 .project-card-view {
   /* box-shadow: 0 4px 5px 3px rgba(34, 78, 223, 0.637) !important; */
   color: white !important;
-  background-color: rgb(17, 17, 17) !important;
-  opacity: 0.9 !important;
+  
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
   width: 23%;
@@ -200,7 +199,7 @@ header {
 
 .card {
   
-  opacity: 0.8 !important;
+  
   
   width: 100%;
   height: 500px;
