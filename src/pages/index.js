@@ -24,20 +24,20 @@ export default function Blog() {
            
            <div className="widgets__widgetContainer">
               <div className="tweet">
-               <TwitterTweetEmbed className="tweets" tweetId={"1449439333031817219"}/>
+               <TwitterTweetEmbed className="tweets" tweetId={"1480598757314019330"}/>
                </div>
                <div className="tweet">
-               <TwitterTweetEmbed className="tweets" tweetId={"1419792355964694533"}/>
+               <TwitterTweetEmbed className="tweets" tweetId={"1480599367010725888"}/>
                </div>
               
                <div className="tweet">
-               <TwitterTweetEmbed className="tweets" tweetId={"1426274218644328452"}/>
+               <TwitterTweetEmbed className="tweets" tweetId={"1480590486612197379"}/>
                </div>
                <div className="tweet">
-               <TwitterTweetEmbed className="tweets" tweetId={"1418345590405140482"}/>
+               <TwitterTweetEmbed className="tweets" tweetId={"1480589758518726657"}/>
                </div>
                <div className="tweet">
-               <TwitterTweetEmbed className="tweets" tweetId={"1417597372205568005"}/>
+               <TwitterTweetEmbed className="tweets" tweetId={"1480588413623750656"}/>
                </div>
                
                
