@@ -12,7 +12,7 @@ const Layout = props => {
       <header>
         <nav className="nav">
         <div className="avatar">
-          <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1423716924240900109/lrOP341Z_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
+          <Link to="/"><Avatar src="https://pbs.twimg.com/profile_images/1466441765460787205/gxwvtcbE_400x400.jpg" style={{height:"85px", width:"100px"}}/></Link>
           
           </div>
           <div className="logo">
